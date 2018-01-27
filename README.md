@@ -1,11 +1,11 @@
 # rating
 
 ```less
-.score1 //1颗星
-.score2 //2颗星
-.score3 //3颗星
-.score4 //4颗星
-.score5 //5颗星
+.score2 //1颗星
+.score4 //2颗星
+.score6 //3颗星
+.score8 //4颗星
+.score0 //5颗星
 .rating //用于用户评分
 ```
 
