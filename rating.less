@@ -1,0 +1,75 @@
+// .score(@num) {
+//     margin-bottom: 10px;
+//     direction: rtl;
+//
+//     i:nth-last-child(@num) ~ i:before,
+//     i:nth-last-child(@num):before {
+//         content: "\F005";
+//         color: @orange;
+//     }
+// }
+//
+
+.rating {
+    direction: rtl;
+    color: @orange;
+    text-align: left;
+}
+
+.rating > i:hover ~ i:before,
+.rating > i:hover:before {
+    content: "\F005";
+}
+
+.rating > i.active:before{
+    content: "\F005";
+}
+
+.rating > i.active ~ i:before {
+    content: "\F005";
+}
+
+.score2 {
+    .rating;
+
+    i:nth-last-child(1) ~ i:before,
+    i:nth-last-child(1):before {
+        content: "\F005";
+    }
+}
+
+.score4 {
+    .rating;
+
+    i:nth-last-child(2) ~ i:before,
+    i:nth-last-child(2):before {
+        content: "\F005";
+    }
+}
+
+.score6 {
+    .rating;
+
+    i:nth-last-child(3) ~ i:before,
+    i:nth-last-child(3):before {
+        content: "\F005";
+    }
+}
+
+.score8 {
+    .rating;
+
+    i:nth-last-child(4) ~ i:before,
+    i:nth-last-child(4):before {
+        content: "\F005";
+    }
+}
+
+.score1 {
+    .rating;
+
+    i:nth-last-child(5) ~ i:before,
+    i:nth-last-child(5):before {
+        content: "\F005";
+    }
+}
